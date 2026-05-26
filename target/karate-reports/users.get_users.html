@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"f2fba29e-09e8-4f57-905b-5233b64398ab",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>users.get_users</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2026-05-26 01:58:40 p. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Obtener lista completa y validar esquema</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">users/get_users.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Listar Usuarios</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Obtener lista completa y validar esquema</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>534</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userSchema = read(&#39;user-schema.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">512</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">13:58:39.934 request:
+1 &gt; GET https://serverest.dev/usuarios
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+13:58:40.441 response time in milliseconds: 507
+1 &lt; 200
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: 14f3df41881d333b4d7d6727519d4f89
+1 &lt; date: Tue, 26 May 2026 18:58:40 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 7278
+{
+    &quot;quantidade&quot;: 34,
+    &quot;usuarios&quot;: [
+        {
+            &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+            &quot;email&quot;: &quot;fulano@qa.com&quot;,
+            &quot;password&quot;: &quot;teste&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;0uxuPY0cbmQhpEz1&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test7445@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;1EtTje6iUYTaTJVk&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test3153@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;29AI5XlRcEm3T6sl&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test5317@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;3hEqs3JEuGuk0tkt&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test5356@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;5NQKRDjdY4OQ2mlX&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test258@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;7pEM1Y22RB7RME2z&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test2676@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;80aAd2OVkkYUDpgt&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test1277@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;8e50VdKZOEgEYlpF&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Fernande Jacobi&quot;,
+            &quot;email&quot;: &quot;rey.paucek@yahoo.com&quot;,
+            &quot;password&quot;: &quot;com.github.javafaker.Number@38d9c9c4&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;CiL2tfHeQ5xAc2If&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;John QA&quot;,
+            &quot;email&quot;: &quot;user.b3ac5216@test.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;GUhYrFGYaK8eA7Q3&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test7016@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;GYryLOPVdHP3iD4P&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test346@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;Ka5glgVXbKnC2cr8&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test2426@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;NtSYolklAuOr4l4o&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;testeAdm&quot;,
+            &quot;email&quot;: &quot;testeadmin@gmail.com&quot;,
+            &quot;password&quot;: &quot;adm123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;R59HP84Bv5tBryGT&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;John QA&quot;,
+            &quot;email&quot;: &quot;user.63fc7516@test.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;T9jg0iQJluPsq2aC&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test144@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;UJNtvr3HWrhjRObK&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Roni Fadel&quot;,
+            &quot;email&quot;: &quot;drew.shanahan@hotmail.com&quot;,
+            &quot;password&quot;: &quot;com.github.javafaker.Number@3bf306d3&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;WEm4CC6WRgJElHhR&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Gregorio Olson&quot;,
+            &quot;email&quot;: &quot;shalon.smitham@gmail.com&quot;,
+            &quot;password&quot;: &quot;com.github.javafaker.Number@6f6998b6&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;WgOCZkRsHTnFuvIi&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test2602@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;XscX17K3Xh0Mli7w&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Ilene Schaefer&quot;,
+            &quot;email&quot;: &quot;tommie.rice@yahoo.com&quot;,
+            &quot;password&quot;: &quot;com.github.javafaker.Number@462c68b3&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;aWehvE4VO9m36ZfU&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Herman Okuneva PhD&quot;,
+            &quot;email&quot;: &quot;fallon.hudson@gmail.com&quot;,
+            &quot;password&quot;: &quot;com.github.javafaker.Number@4b8601a1&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;cUHEXSpByqplHqvq&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Crystal Emmerich&quot;,
+            &quot;email&quot;: &quot;efrain.kihn@yahoo.com&quot;,
+            &quot;password&quot;: &quot;com.github.javafaker.Number@740a0d5e&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;cZYdP3rgdPtDUbkD&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test8917@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;dBqmUkZzNNBjm2UX&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test2186@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;dW93O54MlSANGYBh&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test5868@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;djcboEufUctXngb0&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Vernice Mohr&quot;,
+            &quot;email&quot;: &quot;jose.harvey@yahoo.com&quot;,
+            &quot;password&quot;: &quot;0987654321&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;fO0Av0lbpwv3kXBm&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test6014@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;gZZEIHrjAGCNyogg&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;John QA&quot;,
+            &quot;email&quot;: &quot;user.dbd6560d@test.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;hGior5Q37O49ZO3g&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;John QA&quot;,
+            &quot;email&quot;: &quot;user.fde63d72@test.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;hrrsea5LjvbN07k0&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test9973@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;llAgVQU3zRU8rMt6&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Marylouise Kemmer&quot;,
+            &quot;email&quot;: &quot;esta.swaniawski@hotmail.com&quot;,
+            &quot;password&quot;: &quot;0987654321&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;nCfoCPXoMiTZqqO9&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test7520@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;piyidA8lAHb5eLJ4&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test4476@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;qtcXbqcyTOWzf7L1&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User QA&quot;,
+            &quot;email&quot;: &quot;qa.test1378@gmail.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;rcYNbPjNrm3foXhd&quot;
+        }
+    ]
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each response.usuarios == userSchema.user</span>
+      </div>
+    </div>
+    <div class="time-cell passed">20</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

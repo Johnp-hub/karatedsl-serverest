@@ -1,0 +1,8 @@
+{
+  "newUser": {
+    "nome": "John Doe",
+    "email": "john.auto@test.com",
+    "password": "password123",
+    "administrador": "true"
+  }
+}
